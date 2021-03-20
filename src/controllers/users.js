@@ -17,6 +17,7 @@ const getAllUsers = (req, res) => {
             name: "Marta"
         }
     ]
+
     res.json(users);
 };
 
